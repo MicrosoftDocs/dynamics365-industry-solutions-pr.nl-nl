@@ -4,7 +4,7 @@
       "docset_name": "dynamics365-industry-solutions",
       "build_source_folder": "articles",
       "build_output_subfolder": "dynamics365-industry-solutions",
-      "locale": "nl-nl",
+      "locale": "nl-NL",
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
@@ -28,7 +28,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.nl-nl",
+      "url": "https://github.com/Microsoft/templates.docs.msft.nl-NL",
       "branch": "master",
       "branch_mapping": {}
     },
@@ -48,7 +48,10 @@
       }
     }
   ],
-  "branch_target_mapping": {},
+  "branch_target_mapping": 
+  {
+    "live": ["Publish", "Pdf"]
+  },
   "need_generate_pdf_url_template": true,
   "targets": {
     "Pdf": {
